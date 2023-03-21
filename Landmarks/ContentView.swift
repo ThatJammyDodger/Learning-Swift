@@ -19,7 +19,7 @@ struct ContentView: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Hello, World!")
+                Text("Landmark")
                     .font(.title)
                 
                 HStack {
@@ -34,8 +34,8 @@ struct ContentView: View {
                 
                 Text("About Turtle Rock")
                     .font(.title2)
-                Text("Descriptive text goes here.")
-                
+                Text("Big rock and tree thing in the middle of literally nowhere.")
+                    .offset(y:10)
                 
                 Spacer()
             }
