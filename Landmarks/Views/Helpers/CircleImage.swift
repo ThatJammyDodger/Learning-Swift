@@ -21,6 +21,6 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(img: landmarks[0].image)
+        CircleImage(img: ModelData().landmarks[0].image)
     }
 }
